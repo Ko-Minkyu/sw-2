@@ -15,9 +15,9 @@
                           // Setting EMA to 1 effectively disables EMA filter.
 
 // Servo adjustment - Set _DUTY_MAX, _NEU, _MIN with your own numbers
-#define _DUTY_MAX 2280 // 2000
-#define _DUTY_NEU 1700 // 1500
-#define _DUTY_MIN 506 // 1000
+#define _DUTY_MAX 2256 // 2000
+#define _DUTY_NEU 1680 // 1500
+#define _DUTY_MIN 1000 // 1000
 
 #define _SERVO_ANGLE_DIFF  130  // Replace with |D - E| degree
 #define _SERVO_SPEED       200  // servo speed
